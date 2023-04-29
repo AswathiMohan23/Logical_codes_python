@@ -16,9 +16,6 @@ def anagram(word, array):
     word = list(word.lower())
     word.remove(" ")
     array = list("".join(array))
-    # output = [i for i in array if i in word]
-    # return True if array == output else False
-
     for i in array:
         if i in word:
             output.append(i)
