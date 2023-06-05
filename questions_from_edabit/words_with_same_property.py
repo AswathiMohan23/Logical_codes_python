@@ -4,7 +4,7 @@
 # Examples
 # vowel_links("a very large appliance") ➞ True
 #
-# vowel_links("go to edabit") ➞ True
+# vowel_links("go to questions_from_edabit") ➞ True
 #
 # vowel_links("an open fire") ➞ False
 #
@@ -37,7 +37,7 @@ def vowel_links(sentence):
 
 if __name__ == "__main__":
     print(vowel_links("a very large appliance"))
-    print(vowel_links("go to edabit"))
+    print(vowel_links("go to questions_from_edabit"))
     print(vowel_links("an open fire"))
     print(vowel_links("a sudden applause"))
 
