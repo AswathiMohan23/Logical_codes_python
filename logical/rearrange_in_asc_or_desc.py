@@ -18,6 +18,7 @@
 
 #
 
+
 def reorder_digits(input_list, operation):
     output = []
     for i in input_list:
