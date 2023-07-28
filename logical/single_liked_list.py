@@ -12,6 +12,10 @@ class Node:
         self.data = data
         self.next = next
 
+    def push(self, new_data):
+        new_node = Node(new_data)
+        new_node.next = self.head
+        self.head = new_node
 
 # Helper function to print a given linked list
 def printList(msg, head):
